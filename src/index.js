@@ -14,7 +14,7 @@ const app = express();
 app.use(express.json());
 
 const corsOptions = {
-  origin: ['http://localhost:3000', 'https://your-frontend.com'], // 允许的前端地址（React 默认端口）
+  origin: ['http://localhost:3000', 'https://ebudget-frontend.onrender.com'], // 允许的前端地址（React 默认端口）
   credentials: true,
 };
 app.use(cors(corsOptions));
