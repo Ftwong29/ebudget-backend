@@ -1,0 +1,202 @@
+[
+  {
+    "sub1": "ADMINISTRATIVE & OTHER OPERATING EXPENSE",
+    "order": 1,
+    "sub2": [
+      {
+        "name": "GST/VAT EXPENSE - DIRECT",
+        "order": 1
+      },
+      {
+        "name": "ADMINISTRATIVE & GENERAL EXPENSE",
+        "order": 2
+      },
+      {
+        "name": "REPAIR & MAINTENANCE",
+        "order": 3
+      },
+      {
+        "name": "DIRECTOR REMUNERATION",
+        "order": 4
+      },
+      {
+        "name": "MANPOWER",
+        "order": 5
+      },
+      {
+        "name": "PROFESSIONAL & CONSULTANCY",
+        "order": 6
+      },
+      {
+        "name": "SITE EXPENSES",
+        "order": 7
+      },
+      {
+        "name": "ADVERTISING & NEWSLETTER - INDIRECT",
+        "order": 8
+      },
+      {
+        "name": "TRAVELLING & ACCOMODATION - INDIRECT",
+        "order": 9
+      },
+      {
+        "name": "GST/VAT EXPENSE - INDIRECT",
+        "order": 10
+      }
+    ]
+  },
+  {
+    "sub1": "AS-NEED COST OF SALES",
+    "order": 2,
+    "sub2": [
+      {
+        "name": "PN OTHERS",
+        "order": 1
+      },
+      {
+        "name": "AN ANCESTRAL TABLET",
+        "order": 2
+      },
+      {
+        "name": "AN BURIAL PLOT",
+        "order": 3
+      },
+      {
+        "name": "AN NICHE",
+        "order": 4
+      },
+      {
+        "name": "AN URN BURIAL PLOT",
+        "order": 5
+      },
+      {
+        "name": "AN PET BURIAL PLOT",
+        "order": 6
+      },
+      {
+        "name": "AN PET NICHE",
+        "order": 7
+      },
+      {
+        "name": "AN TOMB",
+        "order": 8
+      },
+      {
+        "name": "AN FUNERAL SERVICE PACKAGE",
+        "order": 9
+      },
+      {
+        "name": "AN FUNERAL SERVICE PACKAGE PET",
+        "order": 10
+      },
+      {
+        "name": "AN NON-FUNERAL SERVICE PACKAGE",
+        "order": 11
+      },
+      {
+        "name": "AN FUNERAL SERVICE",
+        "order": 12
+      },
+      {
+        "name": "AN OTHERS",
+        "order": 13
+      },
+      {
+        "name": "AN GRANITE",
+        "order": 14
+      },
+      {
+        "name": "CONSTRUCTION REVENUE",
+        "order": 15
+      }
+    ]
+  },
+  {
+    "sub1": "AS-NEED SALES",
+    "order": 3,
+    "sub2": [
+      {
+        "name": "PN OTHERS",
+        "order": 1
+      },
+      {
+        "name": "AN ANCESTRAL TABLET",
+        "order": 2
+      },
+      {
+        "name": "AN BURIAL PLOT",
+        "order": 3
+      },
+      {
+        "name": "AN NICHE",
+        "order": 4
+      },
+      {
+        "name": "AN URN BURIAL PLOT",
+        "order": 5
+      },
+      {
+        "name": "AN PET BURIAL PLOT",
+        "order": 6
+      },
+      {
+        "name": "AN PET NICHE",
+        "order": 7
+      },
+      {
+        "name": "AN TOMB",
+        "order": 8
+      },
+      {
+        "name": "AN FUNERAL SERVICE PACKAGE",
+        "order": 9
+      },
+      {
+        "name": "AN FUNERAL SERVICE PACKAGE PET",
+        "order": 10
+      },
+      {
+        "name": "AN NON-FUNERAL SERVICE PACKAGE",
+        "order": 11
+      },
+      {
+        "name": "AN FUNERAL SERVICE",
+        "order": 12
+      },
+      {
+        "name": "AN OTHERS",
+        "order": 13
+      },
+      {
+        "name": "AN GRANITE",
+        "order": 14
+      },
+      {
+        "name": "CONSTRUCTION REVENUE",
+        "order": 15
+      }
+    ]
+  },
+  {
+    "sub1": "COST OF SALES",
+    "order": 4,
+    "sub2": [
+      {
+        "name": "CONSTRUCTION REVENUE",
+        "order": 1
+      },
+      {
+        "name": "MAINTENANCE",
+        "order": 2
+      },
+      {
+        "name": "GST/VAT EXPENSES - COST OF SALES",
+        "order": 3
+      },
+      {
+        "name": "COST OF SALES",
+        "order": 4
+      }
+    ]
+  }
+]
