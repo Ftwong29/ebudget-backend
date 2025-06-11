@@ -8,8 +8,15 @@ require('dotenv').config();
 const authRoutes = require('./routes/auth');  // 注意路径
 const glRoutes = require('./routes/gl');      // 注意路径
 const reportRoutes = require('./routes/report')
+const uploadRoutes = require('./routes/upload'); // ✅ 新增这一行
+
 
 const app = express();
+
+// 增加请求体大小限制为 50MB (根据实际情况调整)
+app.use(express.json({ limit: '50mb' }));
+app.use(express.urlencoded({ limit: '50mb', extended: true }));
+
 
 app.use(express.json());
 
@@ -26,6 +33,8 @@ app.use(morgan('dev'));
 app.use('/api/auth', authRoutes);
 app.use('/api/gl', glRoutes);
 app.use('/api/report', reportRoutes); // ✅ 注册路由前缀
+app.use('/api/upload', uploadRoutes); // ✅ 注册新的 upload 路由前缀
+
 
 app.use((err, req, res, next) => {
   console.error(err.stack);
